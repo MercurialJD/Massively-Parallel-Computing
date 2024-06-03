@@ -1,0 +1,10 @@
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-CPU==
+Op Time: 143722 ms
+Conv-CPU==
+Op Time: 409640 ms
+
+Test Accuracy: 0.8714
+

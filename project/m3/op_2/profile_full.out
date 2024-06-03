@@ -1,0 +1,27 @@
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+==PROF== Connected to process 2092153 (/u/jshen3/ece408git/Project/m3)
+==PROF== Profiling "prefn_marker_kernel()" - 0: 0%....50%....100% - 34 passes
+==PROF== Profiling "unroll_kernel" - 1: 0%....50%....100% - 34 passes
+==PROF== Profiling "matrixMultiplyShared" - 2: 0%....50%....100% - 34 passes
+==PROF== Profiling "unroll_kernel" - 3: 0%....50%....100% - 34 passes
+==PROF== Profiling "matrixMultiplyShared" - 4: 0%....50%....100% - 34 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 5: 0%....50%....100% - 34 passes
+Layer Time: 32802.9 ms
+Op Time: 32626.2 ms
+Conv-GPU==
+==PROF== Profiling "prefn_marker_kernel()" - 6: 0%....50%....100% - 34 passes
+==PROF== Profiling "unroll_kernel" - 7: 0%....50%....100% - 34 passes
+==PROF== Profiling "matrixMultiplyShared" - 8: 0%....50%....100% - 34 passes
+==PROF== Profiling "unroll_kernel" - 9: 0%....50%....100% - 34 passes
+==PROF== Profiling "matrixMultiplyShared" - 10: 0%....50%....100% - 34 passes
+==PROF== Profiling "do_not_remove_this_kernel()" - 11: 0%....50%....100% - 34 passes
+Layer Time: 31783.6 ms
+Op Time: 31657.2 ms
+
+Test Accuracy: 0.8714
+
+==PROF== Disconnected from process 2092153
+==PROF== Report: /u/jshen3/ece408git/Project/analysis_file_full.ncu-rep
